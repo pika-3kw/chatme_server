@@ -1,0 +1,8 @@
+{
+  "name": "chatme_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@personal:pika-3kw/chatme_server.git",
+  "author": "giangnam10a2@gmail.com",
+  "license": "MIT"
+}
