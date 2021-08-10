@@ -4,5 +4,28 @@
   "main": "index.js",
   "repository": "git@personal:pika-3kw/chatme_server.git",
   "author": "giangnam10a2@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "nodemon": "^2.0.12",
+    "prettier": "2.3.2"
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node build/server.js",
+    "build": "babel ./src -d ./build",
+    "format:all": "prettier --config .prettierrc.json --write src/",
+    "format": "prettier --config .prettierrc.json --write"
+  }
 }

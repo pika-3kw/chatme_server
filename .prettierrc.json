@@ -1,0 +1,14 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "endOfLine": "crlf",
+  "overrides": [
+    {
+      "files": "**/*.html",
+      "options": {
+        "tabWidth": 4,
+        "parser": "html"
+      }
+    }
+  ]
+}
